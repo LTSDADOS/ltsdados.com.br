@@ -140,9 +140,9 @@
       stats[i].classList.add("sel");
       await sleep(320);
       stats[i].classList.remove("wait");
-      v.classList.add("flash");
+      if (v) v.classList.add("flash");
       await sleep(110);
-      v.classList.remove("flash");
+      if (v) v.classList.remove("flash");
       await sleep(420);
       stats[i].classList.remove("sel");
     }

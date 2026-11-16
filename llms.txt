@@ -1,6 +1,6 @@
 # LTS Dados
 
-> A LTS Dados extrai dados de notas fiscais, organiza e automatiza planilhas e verifica como a sua empresa aparece nas respostas de IA. Conduzida por Leonardo Simplicio. Atendimento remoto, por WhatsApp e e-mail.
+> A LTS Dados extrai dados de notas fiscais, organiza e automatiza planilhas e verifica como a sua empresa aparece nas respostas de IA. Atendimento remoto, por WhatsApp e e-mail.
 
 ## Serviços
 
@@ -11,6 +11,6 @@
 
 ## Institucional
 
-- [Sobre a LTS Dados](https://ltsdados.com.br/sobre-a-lts/): quem é responsável, como o trabalho funciona.
-- [Contato](https://ltsdados.com.br/contato/): WhatsApp +55 91 9332-6166 e e-mail leotxsp@gmail.com.
+- [Sobre a LTS Dados](https://ltsdados.com.br/sobre-a-lts/): como o trabalho funciona.
+- [Contato](https://ltsdados.com.br/contato/): WhatsApp +55 91 9332-6166 e e-mail atendimento@ltsdados.com.br.
 - [Privacidade](https://ltsdados.com.br/privacidade/): como os arquivos enviados são tratados.

@@ -149,6 +149,32 @@ header.top nav a:hover::after, header.top nav a:focus-visible::after { transform
   }
 }
 
+/* Modelo de mensagem (WhatsApp e e-mail) no fim das páginas de serviço. */
+.tpl { max-width: 560px; margin: 24px auto 0; text-align: left; border: 1px solid var(--line); }
+.tpl summary { padding: 14px 20px; cursor: pointer; font-size: 15px; font-weight: 500; }
+.tpl summary:focus-visible, .tpl .btn:focus-visible { outline: 2px solid var(--blanc); outline-offset: 2px; }
+.tpl-text { margin: 0; padding: 20px; border-top: 1px solid var(--line); background: var(--noir-2); font: inherit; font-size: 14px; line-height: 1.8; white-space: pre-wrap; color: rgba(245, 245, 243, 0.85); }
+.tpl .btns { margin: 0; padding: 16px 20px 0; }
+.tpl .cta-note { margin: 0; padding: 12px 20px 16px; max-width: none; text-align: left; }
+
+/* Aviso curto de LGPD no fim das páginas de serviço. */
+section.lgpd { padding: 32px 0; }
+.lgpd .disclaimer { margin: 0; max-width: 760px; }
+.lgpd strong { color: var(--blanc); font-weight: 600; }
+
+/* Stat tiles: equal columns, the source sits at the bottom of each tile. */
+.stat { display: flex; flex-direction: column; }
+.stat .small:last-child { margin-top: auto; padding-top: 16px; }
+/* Tile whose headline is a sentence, not a number (still the "value" the cursor selects). */
+.stat h3.v.v-text { display: inline-block; align-self: flex-start; font-size: clamp(32px, 4.2vw, 52px); line-height: 1.02; letter-spacing: -0.02em; margin: 0; }
+/* Illustrative mini-sheet. */
+.mini { width: 100%; border-collapse: collapse; margin: 24px 0 0; font-size: 14px; font-variant-numeric: tabular-nums; }
+.mini th, .mini td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+.mini th { font-weight: 500; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); background: rgba(255, 255, 255, 0.03); }
+.mini td:first-child { color: rgba(245, 245, 243, 0.8); }
+.mini td:nth-child(3) { color: var(--blanc); }
+@media (max-width: 520px) { .mini th, .mini td { padding: 8px; font-size: 13px; } }
+
 /* ---------- Causes -> fixes (landing): one row per cause, the diagram goes from broken to fixed ---------- */
 .fix-rows { border-top: 1px solid var(--line); margin-top: 8px; }
 .fix-row { display: grid; gap: 20px 40px; align-items: center; padding: 36px 0; border-bottom: 1px solid var(--line); }
