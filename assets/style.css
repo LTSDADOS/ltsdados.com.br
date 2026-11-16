@@ -378,6 +378,14 @@ footer a { color: inherit; text-underline-offset: 4px; }
   .hero-ia .split { grid-template-columns: 1fr 1fr; align-items: start; }
   .hero-ia .chat { margin: 32px 0 0; }
 }
+/* Contato: modelo de e-mail pronto (substitui o formulário). */
+.mailbox { max-width: 760px; margin-top: 32px; border: 1px solid rgba(255, 255, 255, 0.15); }
+.mailbox .tpl-text { border-top: 0; }
+.mailbox .btns { margin: 0; padding: 20px; border-top: 1px solid var(--line); }
+button.btn { font-family: inherit; cursor: pointer; border-radius: 0; }
+button.btn-ghost { background: transparent; color: var(--blanc); }
+#email .cta-note { max-width: 760px; }
+
 /* Formulário de contato */
 .form { display: grid; gap: 24px; max-width: 760px; margin-top: 32px; border: 1px solid rgba(255, 255, 255, 0.15); background: var(--noir-2); padding: 28px; }
 .form .row2 { display: grid; gap: 24px; }
