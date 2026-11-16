@@ -370,6 +370,14 @@ footer a { color: inherit; text-underline-offset: 4px; }
   .btn::after, header.top nav a::after { transition: none; }
 }
 
+/* Home: a visibilidade em IA é o hero. Título e chat dividem a primeira tela. */
+.hero-ia { padding-bottom: 112px; }
+.hero-ia h1 { margin-top: 0; font-size: clamp(40px, 7vw, 84px); }
+.hero-ia .split { gap: 56px; margin-top: 8px; }
+@media (min-width: 900px) {
+  .hero-ia .split { grid-template-columns: 1fr 1fr; align-items: start; }
+  .hero-ia .chat { margin: 32px 0 0; }
+}
 /* Formulário de contato */
 .form { display: grid; gap: 24px; max-width: 760px; margin-top: 32px; border: 1px solid rgba(255, 255, 255, 0.15); background: var(--noir-2); padding: 28px; }
 .form .row2 { display: grid; gap: 24px; }
